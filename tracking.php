@@ -13,6 +13,7 @@ include('config.php');
     	<div class="header">
         	<a href="<?php echo $url_home; ?>"><img src="<?php echo $design; ?>/images/logo.png" alt="Forum" /></a>
 	    </div>
+	    //V2.1
 <?php
 if(isset($_SESSION['username']))
 {
